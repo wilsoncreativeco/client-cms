@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { useAuth } from '@/contexts/AuthContext'
-import { useAdminStore } from '@/store/adminStore'
-import { clientService } from '@/services/client.service'
+import { useAuth } from '../contexts/AuthContext'
+import { useAdminStore } from '../store/adminStore'
+import { clientService } from '../services/client.service'
 
 /**
  * Returns the "active" client context.
