@@ -1,0 +1,19 @@
+{
+  "name": "@agency/cms-client",
+  "version": "1.0.0",
+  "description": "Client-side integration for Agency CMS — fetch and render managed content in Vite+React sites",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./blocks": "./src/blocks/index.js"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4"
+  },
+  "keywords": ["cms", "agency", "supabase", "react", "vite"]
+}
